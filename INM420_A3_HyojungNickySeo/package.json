@@ -1,0 +1,18 @@
+{
+  "name": "inm420-week1",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "author": "Nicky Seo",
+  "license": "private",
+  "private": true,
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  }
+}

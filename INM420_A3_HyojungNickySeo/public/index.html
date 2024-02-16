@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css" />
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+
+    <title>A3</title>
+</head>
+<body>
+    <section>
+
+        <!-- Header -->
+        <header id="hero">
+            <!-- Background video-->
+            <video autoplay muted loop id="bg">
+                <source src="/assets/images/bg.mp4" type="video/mp4">
+            </video>
+            <!-- Header contents -->
+            <h1>Astronomy Picture of the Day</h1>
+            <p id="date"></p>
+            <!-- Date input section -->
+            <input id="dateInput" type="date">
+            <button id="searchBTN"> SUBMIT </button>
+            
+        </header>
+
+        <!-- Main contents from NASA -->
+        <article id="content">
+            <img id="img" src="" alt="">
+            <h2 id="title"></h2>
+            <h3 id="explanation"></h3>
+        </article>
+    </section>
+    <audio id="ping" src="/assets/Audio/ping.mp3"></audio>
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
